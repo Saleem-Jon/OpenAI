@@ -20,6 +20,21 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Response"
+        android:id="@+id/textmain"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prompt"
+        android:hint="Enter Query"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center|top"/>
+
     <include layout="@layout/content_main" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
